@@ -2,3 +2,5 @@ composer/install:
   command: composer install -v
 composer/fund:
   command: composer fund
+clean-code:
+  command: bin/clean-code
