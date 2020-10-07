@@ -1,0 +1,4 @@
+composer/install:
+  command: composer install
+composer/fund:
+  command: composer fund
