@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "devshop/yaml-tasks": "^1.7@alpha",
         "drupal/core-composer-scaffold": "^8",
         "drupal/core-project-message": "^8",
         "drupal/core-recommended": "^8"
@@ -26,6 +27,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
+        "bin-dir": "bin",
         "sort-packages": true
     },
     "extra": {
